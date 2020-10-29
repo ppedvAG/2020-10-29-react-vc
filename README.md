@@ -2,10 +2,10 @@
 
 Ein Kurs von PPEDV :rocket:
 
-Datum: xx.xx.2020
+Datum: 29.10.2020
 
-Ort: VC / ...
+Ort: VC
 
-Format: Vollzeit / Teilzeit
+Format: Vollzeit 
 
-Für weitere Infos siehe dein Namensordner.
+FÃ¼r weitere Infos siehe dein Namensordner.
