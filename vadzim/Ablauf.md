@@ -22,18 +22,20 @@
 ## M02 | CREATE-REACT-APP
 
 - [x] Folien: [CRA](SLIDES/REACT.md#create-react-app)
-- [x] [Commit]()
 
 ## M03 | JSX / TSX INTRO
 
 - [x] Folien: [jsx/tsx intro](SLIDES/REACT.md#jsx--tsx)
 - [x] emmet
+- [x] [Commit](https://github.com/ppedvAG/2020-10-29-react-vc/commit/8266bcaf24c2c6ed7276be7bb2ee8c8378a3eb2a)
+
+## M04 | REACT ELEMENTS
+
+- [x] Folien: [elements](SLIDES/REACT.md#elements)
+- [x] Demo, siehe Greeter
+- [ ] [Commit]()
 
 <!-- 
-
-## M | REACT ELEMENTS
-
-- [ ] elements
 
 ## M | FUNCTION COMPONENTS AND PROPS
 
