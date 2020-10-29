@@ -648,6 +648,7 @@ function JSXManyEls() {
 }
 ```
 
+
 <!-- todo #32 -->
 
 Grundsätzlich können wir über Arrays mehrere Elemente einbinden
@@ -659,7 +660,7 @@ return (
 <ul>
  {liArr}
 </ul>
-}
+)
 ```
 
 </article>
@@ -715,6 +716,14 @@ function JSXElsAreObjects() {  
   return typeof el;
 }
 ```
+
+In den geschweiften Klammern sind keine JS-/TS-Objekte erlaubt
+
+```jsx
+ <p>Heute ist: {new Date()}</p> // geht nicht
+ <p>Heute ist: {datumString}</p> // geht, wenn man datum zum String umwandelt
+```
+<!-- todo #1 -->
 
 <!-- todo #34 -->
 

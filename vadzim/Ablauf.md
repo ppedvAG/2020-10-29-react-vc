@@ -17,16 +17,19 @@
 - [x] Folien: npx, npm, yarn
 - [x] Demo
 - [x] Folien: [react project](SLIDES/REACT.md#project)
-- [x] Commit
+- [x] [Commit](https://github.com/ppedvAG/2020-10-29-react-vc/commit/e2deca00766c2043fed8242a9e606a527ebb9baa)
+
+## M02 | CREATE-REACT-APP
+
+- [x] Folien: [CRA](SLIDES/REACT.md#create-react-app)
+- [x] [Commit]()
+
+## M03 | JSX / TSX INTRO
+
+- [x] Folien: [jsx/tsx intro](SLIDES/REACT.md#jsx--tsx)
+- [x] emmet
 
 <!-- 
-
-- [ ] react ecosystem
-
-## M | JSX INTRO
-
-- [ ] jsx/tsx intro
-- [ ] emmet
 
 ## M | REACT ELEMENTS
 
