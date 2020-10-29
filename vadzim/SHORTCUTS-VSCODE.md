@@ -5,6 +5,7 @@
 | `shift_alt a` | comment / uncomment |
 | `ctrl #` | comment / uncomment |
 | `alt up/down` | move line or selection |
+| `ctrl ö` | open terminal |
 <!--
 | `shift_alt up/down` | duplicate line or selection |
 | `shift_alt cursor` | edit many lines |
@@ -17,7 +18,6 @@
 | `ctrl c ctrl v` | duplicate line |
 | `alt_capsLock cursor` | edit many places|
 | `ctrl leftclick` | go to definition |
-| `ctrl ö` | open terminal |
 | `ctrl k s` | save all |
 | `alt b` | open in browser |
 | `f12` | go to definition |

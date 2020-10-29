@@ -1,4 +1,6 @@
-# REDUX
+<link rel="stylesheet" href="slides.css">
+
+# REDUX #
 
 ![alt text](imgs/redux/redux-logo.png "redux logo")
 

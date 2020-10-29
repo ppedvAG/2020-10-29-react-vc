@@ -6,18 +6,20 @@
 - [x] Folien: vs code
 - [x] Folien: git & github
 - [x] VSCode [Shortcuts](./SHORTCUTS-VSCODE.md)
-- [ ] [commit]()
+- [x] [commit](https://github.com/ppedvAG/2020-10-29-react-vc/commit/187978eca71d0446cab823abef13e00fe805a45b)
+
+---
+
+## M01 | GETTING STARTED
+
+- [x] Folien: [react getting started](SLIDES/REACT.md#getting-started)
+- [x] Folien: nodejs getting started
+- [x] Folien: npx, npm, yarn
+- [x] Demo
+- [x] Folien: [react project](SLIDES/REACT.md#project)
+- [x] Commit
 
 <!-- 
-## M | GETTING STARTED
-
-- [ ] Folien: react getting started
-- [ ] Folien: nodejs getting started
-- [ ] Folien: npx, npm, yarn
-- [ ] Demo
-- [ ] Commit
-
-## M | REACT PROJECT
 
 - [ ] react ecosystem
 

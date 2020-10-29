@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="slides.css">
+
 # REACT #
 
 ![alt text](imgs/F2.png "react logo")
