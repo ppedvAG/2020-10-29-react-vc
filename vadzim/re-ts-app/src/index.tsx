@@ -7,6 +7,8 @@ import Greeter from './Greeter';
 import Users from './Users';
 import User from './User';
 import reportWebVitals from './reportWebVitals';
+import DateTimeClass from './DateTimeClass';
+import UsersClass from './UsersClass';
 
 let users = Array<User> (
   {id: 1, name: "nn", username: "nn", website: "nnexample.org"},
@@ -14,12 +16,15 @@ let users = Array<User> (
   {id: 3, name: "tt", username: "tt", website: "ttexample.org"}
 );
 
+
 ReactDOM.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <Greeter /> */}
     {/* <RenderArray /> */}
-    <Users users={users}/>
+    {/* <Users users={users}/> */}
+    {/* <DateTimeClass /> */}
+<UsersClass />
   </React.StrictMode>,
   document.getElementById('root')
 );

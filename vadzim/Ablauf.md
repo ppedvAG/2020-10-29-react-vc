@@ -46,22 +46,28 @@
 - [x] [Commit](https://github.com/ppedvAG/2020-10-29-react-vc/commit/e862fd611dec0582ecf0197de156436fdbbf1a1e)
 <!-- - [ ] components as props -->
 
-## M | JSX CONTINUED
+## M06 | JSX CONTINUED
 
-- [ ] Folien [jsx continued](SLIDES/REACT.md#jsx--element-attributes)
-- [ ] attributes
-- [ ] conditionals
-- [ ] iterating elements
+- [x] Folien [jsx continued](SLIDES/REACT.md#jsx--element-attributes)
+- [x] attributes
+- [x] conditionals
+- [x] iterating elements
+- [x] Demo [Users](re-ts-app/src/Users.tsx)
+- [x] [Commit](https://github.com/ppedvAG/2020-10-29-react-vc/commit/f6b71a43c08e6d9309245855dcb02175bc74f630)
 
-<!-- 
-## M | COMPONENTS AND STATE
+## M07 | COMPONENTS AND STATE
 
+- [ ] Folien: [CLASS COMPONENTS](SLIDES/REACT.md#class-components)
+- [ ] 
 - [ ] class components
 - [ ] constructor
 - [ ] state
 - [ ] use state hook
 - [ ] components in state
+- [ ] Demo: [UserClass](re-ts-app/src/UsersClass.tsx)
+- [ ] Commit
 
+<!-- 
 ## M | REACT & FORMS
 
 - [ ] forms

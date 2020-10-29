@@ -1671,7 +1671,7 @@ exercise todo-app - version50
   - zeigen Sie nicht nur Datum, sondern auch die Uhrzeit vom Date-Objekt
   - die Uhrzeit sollte sich jede Sekunde aktualisieren
 - Todo Komponente
-  - Array todos sollte im State aufbewahrt werden
+  - Array users sollte im State aufbewahrt werden
 
 <!-- todo #76 -->
 
