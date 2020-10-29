@@ -1,0 +1,12 @@
+npm - Paketmanager
+
+zum Verwalten von Abhängigkeiten
+Pakete im node-modules-Ordner
+Konfiguration für das Projekt in package.json
+
+
+REACT > ONLINE PLAYGROUNDS
+
+- https://codepen.io/pen?&editable=true&editors=0010
+- https://codesandbox.io/s/new 
+- https://glitch.com/edit/#!/tasty-grin?path=README.md:1:0 
