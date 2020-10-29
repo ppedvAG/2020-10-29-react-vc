@@ -1,0 +1,8 @@
+.gerade {
+    background-color: rgb(250, 88, 88);
+    color: rgb(248, 160, 160);
+}
+.ungerade {
+    background-color: rgb(248, 160, 160);
+    color: rgb(250, 88, 88);
+}

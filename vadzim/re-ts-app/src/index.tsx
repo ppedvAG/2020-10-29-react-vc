@@ -4,13 +4,22 @@ import './index.css';
 // import App from './App';
 import Greeter from './Greeter';
 // import RenderArray from './JSX-many-elmnts';
+import Users from './Users';
+import User from './User';
 import reportWebVitals from './reportWebVitals';
+
+let users = Array<User> (
+  {id: 1, name: "nn", username: "nn", website: "nnexample.org"},
+  {id: 2, name: "mm", username: "mm", website: "mmexample.org"},
+  {id: 3, name: "tt", username: "tt", website: "ttexample.org"}
+);
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <App /> */}
-    <Greeter />
+    {/* <Greeter /> */}
     {/* <RenderArray /> */}
+    <Users users={users}/>
   </React.StrictMode>,
   document.getElementById('root')
 );

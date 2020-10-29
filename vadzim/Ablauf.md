@@ -43,15 +43,17 @@
 - [x] props.children
 - [x] Demo[DateTime](./re-ts-app/src/DateTime.tsx)
 - [x] Demo[Rating](./re-ts-app/src/Rating.tsx)
+- [x] [Commit](https://github.com/ppedvAG/2020-10-29-react-vc/commit/e862fd611dec0582ecf0197de156436fdbbf1a1e)
 <!-- - [ ] components as props -->
 
-<!-- 
 ## M | JSX CONTINUED
 
+- [ ] Folien [jsx continued](SLIDES/REACT.md#jsx--element-attributes)
 - [ ] attributes
 - [ ] conditionals
 - [ ] iterating elements
 
+<!-- 
 ## M | COMPONENTS AND STATE
 
 - [ ] class components
