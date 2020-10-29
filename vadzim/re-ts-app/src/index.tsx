@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
 import Greeter from './Greeter';
+// import RenderArray from './JSX-many-elmnts';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <App /> */}
     <Greeter />
+    {/* <RenderArray /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

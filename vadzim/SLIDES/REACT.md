@@ -648,7 +648,6 @@ function JSXManyEls() {
 }
 ```
 
-
 <!-- todo #32 -->
 
 Grundsätzlich können wir über Arrays mehrere Elemente einbinden

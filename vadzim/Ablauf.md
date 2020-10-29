@@ -33,17 +33,19 @@
 
 - [x] Folien: [elements](SLIDES/REACT.md#elements)
 - [x] Demo, siehe Greeter
-- [ ] [Commit]()
+- [x] [Commit](https://github.com/ppedvAG/2020-10-29-react-vc/commit/7684e29f3d96f310d2d2b2d753a1942861f8ca36)
+
+## M05 | FUNCTION COMPONENTS AND PROPS
+
+- [x] Folien: [components](SLIDES/REACT.md#components)
+- [x] components
+- [x] props
+- [x] props.children
+- [x] Demo[DateTime](./re-ts-app/src/DateTime.tsx)
+- [x] Demo[Rating](./re-ts-app/src/Rating.tsx)
+<!-- - [ ] components as props -->
 
 <!-- 
-
-## M | FUNCTION COMPONENTS AND PROPS
-
-- [ ] components
-- [ ] props
-- [ ] props.children
-- [ ] components as props
-
 ## M | JSX CONTINUED
 
 - [ ] attributes
