@@ -108,12 +108,12 @@
 - [ ] components as props
 - [x] components in state
 - [ ] specialization
-<!-- 
-  
 
+<!-- 
 
 ## M | SSR
 
 - [ ] ssr vs csr
 - [ ] react & ssr
+
  -->
