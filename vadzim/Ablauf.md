@@ -66,36 +66,41 @@
 
 ## M08 | COMPONENTS LIFECYCLE
 
-- [ ] Folien: [component-lifecycle](SLIDES/REACT.md#component-lifecycle)
-- [ ] Demo: [DidMount](re-ts-app/src/Lifecycle/DidMount.tsx)
-- [ ] Demo: [WillUnmount](re-ts-app/src/Lifecycle/WillUnmount.tsx)
-- [ ] Demo: [DateTimeLC](re-ts-app/src/Lifecycle/DateTimeLC.tsx)
-- [ ] [Commit]()
+- [x] Folien: [component-lifecycle](SLIDES/REACT.md#component-lifecycle)
+- [x] Link: [lebenszyklus diagramm](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+- [x] Demo: [DidMount](re-ts-app/src/Lifecycle/DidMount.tsx)
+- [x] Demo: [WillUnmount](re-ts-app/src/Lifecycle/WillUnmount.tsx)
+- [x] Demo: [DateTimeLC](re-ts-app/src/Lifecycle/DateTimeLC.tsx)
+- [x] [Commit](https://github.com/ppedvAG/2020-10-29-react-vc/commit/a63648235cada5d252e7e1c89170e1769b05b264)
 
-<!-- 
+## M09 | HOOKS
 
-- [ ] components as props
+- [x] Folien: [hooks](SLIDES/REACT.md#hooks)
 - [x] use state hook
-- [x] components in state
-  
-## M | REACT & FORMS
-
-- [ ] forms
 - [ ] use effect hook
 
+## M10 | REACT & FORMS
+
+- [x] Folien: [Forms](SLIDES/REACT.md#forms)
+- [x] Demo: [PWConfirm](re-ts-app/src/Forms/PWConfirm.tsx)
+- [x] [Commit]()
+
+<!-- 
+  
 ## M | COMPONENTS COMMUNICATION
 
 - [ ] lifting state up
+- [ ] components as props
+- [x] components in state
 - [ ] specialization
-
-## M | SSR
-
-- [ ] ssr vs csr
-- [ ] react & ssr
 
 ## M | REDUX
 
 - [ ] redux
 - [ ] react-redux
 
+## M | SSR
+
+- [ ] ssr vs csr
+- [ ] react & ssr
  -->
