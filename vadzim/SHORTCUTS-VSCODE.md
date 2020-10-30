@@ -6,6 +6,7 @@
 | `ctrl #` | comment / uncomment |
 | `alt up/down` | move line or selection |
 | `ctrl ö` | open terminal |
+| `ctrl k c` | comment selection with one-line-comment-syntax |
 <!--
 | `shift_alt up/down` | duplicate line or selection |
 | `shift_alt cursor` | edit many lines |

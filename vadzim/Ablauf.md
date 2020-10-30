@@ -44,7 +44,6 @@
 - [x] Demo[DateTime](./re-ts-app/src/DateTime.tsx)
 - [x] Demo[Rating](./re-ts-app/src/Rating.tsx)
 - [x] [Commit](https://github.com/ppedvAG/2020-10-29-react-vc/commit/e862fd611dec0582ecf0197de156436fdbbf1a1e)
-<!-- - [ ] components as props -->
 
 ## M06 | JSX CONTINUED
 
@@ -57,24 +56,31 @@
 
 ## M07 | COMPONENTS AND STATE
 
-- [ ] Folien: [CLASS COMPONENTS](SLIDES/REACT.md#class-components)
-- [ ] 
-- [ ] class components
-- [ ] constructor
-- [ ] state
-- [ ] use state hook
-- [ ] components in state
-- [ ] Demo: [UserClass](re-ts-app/src/UsersClass.tsx)
-- [ ] Commit
+- [x] Folien: [CLASS COMPONENTS](SLIDES/REACT.md#class-components)
+- [x] Folien: [COMPONENTS STATE](SLIDES/REACT.md#component-state)
+- [x] class components
+- [x] constructor
+- [x] state
+- [x] Demo: [UserClass](re-ts-app/src/UsersClass.tsx)
+- [x] [Commit](https://github.com/ppedvAG/2020-10-29-react-vc/commit/becd4192e4afcfb4a0595ec92013445654d981bd)
+
+## M08 | COMPONENTS LIFECYCLE
+
+- [ ] Folien: [component-lifecycle](SLIDES/REACT.md#component-lifecycle)
+- [ ] Demo: [DidMount](re-ts-app/src/Lifecycle/DidMount.tsx)
+- [ ] Demo: [WillUnmount](re-ts-app/src/Lifecycle/WillUnmount.tsx)
+- [ ] Demo: [DateTimeLC](re-ts-app/src/Lifecycle/DateTimeLC.tsx)
+- [ ] [Commit]()
 
 <!-- 
+
+- [ ] components as props
+- [x] use state hook
+- [x] components in state
+  
 ## M | REACT & FORMS
 
 - [ ] forms
-
-## M | COMPONENTS LIFECYCLE
-
-- [ ] lifecycle methods
 - [ ] use effect hook
 
 ## M | COMPONENTS COMMUNICATION

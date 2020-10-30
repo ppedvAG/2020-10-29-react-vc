@@ -9,25 +9,46 @@ import User from './User';
 import reportWebVitals from './reportWebVitals';
 import DateTimeClass from './DateTimeClass';
 import UsersClass from './UsersClass';
+import DidMount from './Lifecycle/DidMount';
+import WillUnmount from './Lifecycle/WillUnmount';
+import DateTimeLC from './Lifecycle/DateTimeLC';
 
-let users = Array<User> (
-  {id: 1, name: "nn", username: "nn", website: "nnexample.org"},
-  {id: 2, name: "mm", username: "mm", website: "mmexample.org"},
-  {id: 3, name: "tt", username: "tt", website: "ttexample.org"}
+//#region Component Users
+let users = Array<User>(
+  { id: 1, name: "nn", username: "nn", website: "nnexample.org" },
+  { id: 2, name: "mm", username: "mm", website: "mmexample.org" },
+  { id: 3, name: "tt", username: "tt", website: "ttexample.org" }
 );
+//#endregion Component Users
 
-
+//#region WillUnmount
+let root = document.getElementById('root');
 ReactDOM.render(
-  <React.StrictMode>
-    {/* <App /> */}
-    {/* <Greeter /> */}
-    {/* <RenderArray /> */}
-    {/* <Users users={users}/> */}
-    {/* <DateTimeClass /> */}
-<UsersClass />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+<React.StrictMode>
+  {/* <WillUnmount /> */}
+  <DateTimeLC />
+  </React.StrictMode>, root);
+  function unmount() {
+    ReactDOM.unmountComponentAtNode(root as Element);
+  }
+  setTimeout(unmount, 2000);
+//#endregion WillUnmount
+
+/* strg k c für mehrere Einzeiler */
+// ReactDOM.render(
+//   <React.StrictMode>
+//     {/* <App /> */} 
+//     {/* <Greeter /> */}
+//     {/* <RenderArray /> */}
+//     {/* <Users users={users}/> */}
+//     {/* <DateTimeClass /> */}
+//     {/* <UsersClass /> */}
+//     {/* <DidMount /> */}
+//      <WillUnmount />
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// ); 
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
