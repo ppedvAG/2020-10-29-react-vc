@@ -89,22 +89,28 @@
 
 - [x] Folien: [redux](SLIDES/REDUX.md#redux--idea)
 - [x] Folien: [react-redux](SLIDES/REDUX.md#react-redux--idea)
-- [x] Demo: [index.tsx#routing](re-ts-app/src/index.tsx)
-- [x] [Commit]()
 
 ## M12 | ROUTING
 
-- [ ] Folien: [Routing](SLIDES/REACT.md#router)
+- [x] Folien: [Routing](SLIDES/REACT.md#router)
+- [x] Demo: [index.tsx#routing](re-ts-app/src/index.tsx)
+- [x] [Commit](https://github.com/ppedvAG/2020-10-29-react-vc/commit/add405239c1bf79a58438cc5a82a09d9f0f75fd5)
 
+## M13 | TESTING
 
-<!-- 
-  
-## M | COMPONENTS COMMUNICATION
+- [x] Folien: [Jest](SLIDES/REACT.md#jest--idea)
+- [x] Demo: [Greeter.test](re-ts-app/src/Greeter.test.tsx)
+- [x] Commit
+
+## M14 | COMPONENTS COMMUNICATION
 
 - [ ] lifting state up
 - [ ] components as props
 - [x] components in state
 - [ ] specialization
+<!-- 
+  
+
 
 ## M | SSR
 

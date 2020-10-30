@@ -9,6 +9,8 @@ export default function Greeter() {
   const myNewElement = React.createElement('input');
   const reactElMembers = Object.entries(myNewElement);
   console.log('reactElMembers :>> ', reactElMembers);
+
+
   /* 
   reactElMembers :>>  
 Array(7)
@@ -28,4 +30,11 @@ length: 7 */
       <div>Rating: <Rating stars={4}/></div>
     </div>
   );
+}
+
+export function shorten(s: string, maxlength: number) {
+  if (s.length > maxlength) {
+    s = s.slice(0, maxlength - 3) + '...';
+  }
+  return s;
 }
