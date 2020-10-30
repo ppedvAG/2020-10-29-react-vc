@@ -1,0 +1,22 @@
+.Card-title {
+    margin: 10;
+    font-family: serif;
+}
+
+.Card-content {
+    font-size: larger;
+}
+
+.Card {
+    padding: 10px 10px;
+    border: 5px solid;
+}
+
+.Card-red {
+    border-color: red;
+}
+
+.Card-blue {
+    border-color: blue;
+}
+

@@ -1,9 +1,9 @@
 import React from "react";
-import "./App.css";
+import "./Game.css";
 import Board from './Board';
 
-class App extends React.Component {
-    constructor(props) {
+class Game extends React.Component<any, any> {
+    constructor(props: any) {
       super(props);    
       this.state = {
         history: [{
@@ -15,7 +15,7 @@ class App extends React.Component {
         xIsNext: true,
       }
     }
-    handleClick(i) {
+    handleClick(i: any) {
       const history = this.state.history.slice(0, this.state.stepNumber + 1);
       const current = history[history.length - 1];
       const squares = current.squares.slice();
@@ -35,7 +35,7 @@ class App extends React.Component {
       });
     }
   
-    jumpTo(step) {
+    jumpTo(step: any) {
       this.setState({
         stepNumber: step,
         xIsNext: (step % 2) === 0
@@ -47,7 +47,7 @@ class App extends React.Component {
       const current = history[this.state.stepNumber];
       const winner = calculateWinner(current.squares);
   
-      const moves = history.map((step, move) => {
+      const moves = history.map((step: any, move: any) => {
         const desc = move ?
         'Go to move #' + move :
         'Go to game start';
@@ -70,7 +70,7 @@ class App extends React.Component {
           <div className="game-board">
             <Board 
             squares={current.squares}
-            onClick={(i) => this.handleClick(i)}/>
+            onClick={(i: any) => this.handleClick(i)}/>
           </div>
           <div className="game-info">
             <div>{status}</div>
@@ -83,7 +83,7 @@ class App extends React.Component {
   
   // ========================================
   
-  function calculateWinner(squares) {
+  function calculateWinner(squares: any) {
     const lines = [
       [0, 1, 2],
       [3, 4, 5],
@@ -104,4 +104,4 @@ class App extends React.Component {
   }
   
 
-export default App;
+export default Game;

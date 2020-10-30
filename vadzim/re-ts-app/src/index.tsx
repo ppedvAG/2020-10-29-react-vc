@@ -21,6 +21,8 @@ import {
   BrowserRouter as Router, Switch, Route, Link
 } from 'react-router-dom';
 import Rating from './Rating';
+import Game from './LiftingStateUp/Game';
+import CardParent from './Children/Parent';
 
 //#region Component Users
 let users = Array<User>(
@@ -44,57 +46,61 @@ let users = Array<User>(
 //  setTimeout(unmount, 2000);
 //#endregion WillUnmount
 
-const routing = (
-  <Router>
-            <div>
-                <nav>
-                    <ul>
-                      {/* führt zum Root, nicht zu der Komponente Home */}
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/app">Sample App</Link></li>
-                        <li><Link to="/greeter">Greeater</Link></li>
-                        <li><Link to="/rating">Rating</Link></li>
-                    </ul>
-                </nav>
+// #region Routing
+// const routing = (
+//   <Router>
+//             <div>
+//                 <nav>
+//                     <ul>
+//                       {/* führt zum Root, nicht zu der Komponente Home */}
+//                         <li><Link to="/">Home</Link></li>
+//                         <li><Link to="/app">Sample App</Link></li>
+//                         <li><Link to="/greeter">Greeater</Link></li>
+//                         <li><Link to="/rating">Rating</Link></li>
+//                     </ul>
+//                 </nav>
 
-                <Switch>
-                    {/* <Route exact path="/" component={Home}>
-                        <Home />
-                    </Route> */}
-                    <Route exact path="/app" component={App}>
-                        <App />
-                    </Route>
-                    <Route path="/greeter">
-                        <Greeter />
-                    </Route>
-                    <Route path="/rating">
-                        <Rating />
-                    </Route>
-                    {/* <Route exact path="/home" component={Home}></Route> */}
-                </Switch>
-            </div>
-        </Router>
-)
-ReactDOM.render(routing, document.getElementById('root')); 
-// ReactDOM.render(
-//   <React.StrictMode>
-//     {/* <App /> */} 
-//     {/* <Greeter /> */}
-//     {/* <RenderArray /> */}
-//     {/* <Users users={users}/> */}
-//     {/* <DateTimeClass /> */}
-//     {/* <UsersClass /> */}
-//     {/* <DidMount /> */}
-//     {/* <UseState /> */}
-//     {/* <UseEffect /> */}
-//     {/* <PWConfirm /> */}
-//     {/* <SimpleDemo /> */}
-//     {/* <BrowserRouter> */}
-//     <Home />,
-//     {/* </BrowserRouter> */}
-//   </React.StrictMode>,
-//   document.getElementById('root')
-// ); 
+//                 <Switch>
+//                     {/* <Route exact path="/" component={Home}>
+//                         <Home />
+//                     </Route> */}
+//                     <Route exact path="/app" component={App}>
+//                         <App />
+//                     </Route>
+//                     <Route path="/greeter">
+//                         <Greeter />
+//                     </Route>
+//                     <Route path="/rating">
+//                         <Rating />
+//                     </Route>
+//                     {/* <Route exact path="/home" component={Home}></Route> */}
+//                 </Switch>
+//             </div>
+//         </Router>
+// )
+// ReactDOM.render(routing, document.getElementById('root'));
+//#endregion Routing
+
+ReactDOM.render(
+  <React.StrictMode>
+    {/* <App /> */} 
+    {/* <Greeter /> */}
+    {/* <RenderArray /> */}
+    {/* <Users users={users}/> */}
+    {/* <DateTimeClass /> */}
+    {/* <UsersClass /> */}
+    {/* <DidMount /> */}
+    {/* <UseState /> */}
+    {/* <UseEffect /> */}
+    {/* <PWConfirm /> */}
+    {/* <SimpleDemo /> */}
+    {/* <BrowserRouter> */}
+    {/* </BrowserRouter> */}
+    {/* <Game /> */}
+    <CardParent />
+  </React.StrictMode>,
+  document.getElementById('root')
+); 
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

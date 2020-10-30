@@ -104,9 +104,11 @@
 
 ## M14 | COMPONENTS COMMUNICATION
 
-- [ ] lifting state up
+- [x] lifting state up [Demo](re-ts-app/src/LiftingStateUp/Game.tsx)
+- [x] props.children [Demo](re-ts-app/src/Children/Parent.tsx)
+- [ ] [Commit]()
 - [ ] components as props
-- [x] components in state
+- [ ] components in state
 - [ ] specialization
 
 <!-- 
