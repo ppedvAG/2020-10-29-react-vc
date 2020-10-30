@@ -83,7 +83,19 @@
 
 - [x] Folien: [Forms](SLIDES/REACT.md#forms)
 - [x] Demo: [PWConfirm](re-ts-app/src/Forms/PWConfirm.tsx)
+- [x] [Commit](https://github.com/ppedvAG/2020-10-29-react-vc/commit/3d363cc2f6dec549d7eb19adab1ddb6b02e100ab)
+
+## M11 | REDUX
+
+- [x] Folien: [redux](SLIDES/REDUX.md#redux--idea)
+- [x] Folien: [react-redux](SLIDES/REDUX.md#react-redux--idea)
+- [x] Demo: [index.tsx#routing](re-ts-app/src/index.tsx)
 - [x] [Commit]()
+
+## M12 | ROUTING
+
+- [ ] Folien: [Routing](SLIDES/REACT.md#router)
+
 
 <!-- 
   
@@ -93,11 +105,6 @@
 - [ ] components as props
 - [x] components in state
 - [ ] specialization
-
-## M | REDUX
-
-- [ ] redux
-- [ ] react-redux
 
 ## M | SSR
 

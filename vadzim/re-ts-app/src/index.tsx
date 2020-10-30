@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
+import App from './App';
 import Greeter from './Greeter';
 // import RenderArray from './JSX-many-elmnts';
 import Users from './Users';
@@ -15,6 +15,12 @@ import DateTimeLC from './Lifecycle/DateTimeLC';
 import UseState from './Hooks/UseState';
 import UseEffect from './Hooks/UseEffect';
 import PWConfirm from './Forms/PWConfirm';
+import SimpleDemo from './Redux/SimpleDemo';
+import Home from './Routing/Home';
+import {
+  BrowserRouter as Router, Switch, Route, Link
+} from 'react-router-dom';
+import Rating from './Rating';
 
 //#region Component Users
 let users = Array<User>(
@@ -38,22 +44,57 @@ let users = Array<User>(
 //  setTimeout(unmount, 2000);
 //#endregion WillUnmount
 
-ReactDOM.render(
-  <React.StrictMode>
-    {/* <App /> */} 
-    {/* <Greeter /> */}
-    {/* <RenderArray /> */}
-    {/* <Users users={users}/> */}
-    {/* <DateTimeClass /> */}
-    {/* <UsersClass /> */}
-    {/* <DidMount /> */}
-    {/* <UseState /> */}
-    {/* <UseEffect /> */}
-    <PWConfirm />
-  </React.StrictMode>,
-  document.getElementById('root')
-); 
+const routing = (
+  <Router>
+            <div>
+                <nav>
+                    <ul>
+                      {/* führt zum Root, nicht zu der Komponente Home */}
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/app">Sample App</Link></li>
+                        <li><Link to="/greeter">Greeater</Link></li>
+                        <li><Link to="/rating">Rating</Link></li>
+                    </ul>
+                </nav>
 
+                <Switch>
+                    {/* <Route exact path="/" component={Home}>
+                        <Home />
+                    </Route> */}
+                    <Route exact path="/app" component={App}>
+                        <App />
+                    </Route>
+                    <Route path="/greeter">
+                        <Greeter />
+                    </Route>
+                    <Route path="/rating">
+                        <Rating />
+                    </Route>
+                    {/* <Route exact path="/home" component={Home}></Route> */}
+                </Switch>
+            </div>
+        </Router>
+)
+ReactDOM.render(routing, document.getElementById('root')); 
+// ReactDOM.render(
+//   <React.StrictMode>
+//     {/* <App /> */} 
+//     {/* <Greeter /> */}
+//     {/* <RenderArray /> */}
+//     {/* <Users users={users}/> */}
+//     {/* <DateTimeClass /> */}
+//     {/* <UsersClass /> */}
+//     {/* <DidMount /> */}
+//     {/* <UseState /> */}
+//     {/* <UseEffect /> */}
+//     {/* <PWConfirm /> */}
+//     {/* <SimpleDemo /> */}
+//     {/* <BrowserRouter> */}
+//     <Home />,
+//     {/* </BrowserRouter> */}
+//   </React.StrictMode>,
+//   document.getElementById('root')
+// ); 
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
